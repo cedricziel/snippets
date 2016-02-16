@@ -27,7 +27,7 @@ that's what you want, right?
 
 **No.**
 
-TYPO3 CMS (or better the composer plugins that moves composer packages around; to typo3conf/ext 
+TYPO3 CMS (or better the composer plugin that moves composer packages around; to typo3conf/ext 
 instead of `vendor` for example), for some obscure reason doesn't distinguish between libraries
 and distributions. That's why you always get a full blown cms project. Neat.
 
