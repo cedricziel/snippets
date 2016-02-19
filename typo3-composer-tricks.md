@@ -36,3 +36,16 @@ You can disable the behaviour by using the `no-plugins` flag.
 ```
 composer install --no-plugins
 ```
+
+### Why using `typo3/cms-core` as dependency is no solution to the underlying problem
+
+The [composer wiki page](https://wiki.typo3.org/Composer) suggests using `typo3/cms-core`
+as dependency to declare what version of the TYPO3 core to use.
+
+This doesnt solve the underlying problem: Using `typo3/cms-core` as a dependency will fail
+in any case where `typo3/cms` is not part of the current composer dependency workspace.
+This is because `typo3/cms-core` is provided by `typo3/cms` via the composer `replace`
+mechanism.
+
+You are still required to depend on `typo3/cms` and therefore to use the `--no-plugins` flag
+if you need to install or update composer dependencies.
