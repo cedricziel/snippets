@@ -1,5 +1,9 @@
 # Loose snippets
 
+## *nix tools
+
+* [dd](linux/tools.md)
+
 ## Symfony2
 
 * [Route Entity Binding](symfony-custom-router-for-easy-route-entity-binding.md)
