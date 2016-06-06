@@ -2,7 +2,11 @@
 
 ## *nix tools
 
-* [dd](linux/tools.md)
+* [dd](linux/tools.md) 
+
+## Composer (PHP)
+
+* [Setting config at runtime](composer.md#setting-config-at-runtime)
 
 ## Symfony2
 
